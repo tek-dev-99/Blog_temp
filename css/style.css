@@ -217,6 +217,26 @@ input:focus{
     .address p{
         display: none;
     }     
+
+    .form{
+        width: auto;
+    }
+    input{
+        width: 90%;
+    }
+    .textArea{
+        width: 90%;
+    }
+    .form-btn{
+        color: white;
+        border: none;
+        border-radius: 8px;
+        width: 90%;
+        background-color: black;
+        padding: 5px auto;
+        cursor: pointer;
+        font-size: 14px;
+    }
     
 }
 
@@ -236,5 +256,24 @@ input:focus{
     .footer{
         text-align: center;
     } 
+    .form{
+        width: auto;
+    }
+    input{
+        width: 70%;
+    }
+    .textArea{
+        width: 70%;
+    }
+    .form-btn{
+        color: white;
+        border: none;
+        border-radius: 8px;
+        width: 70%;
+        background-color: black;
+        padding: 5px auto;
+        cursor: pointer;
+        font-size: 14px;
+    }
     
 }
