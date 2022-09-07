@@ -178,3 +178,63 @@ input:focus{
     font-size: 16px;
 }
 
+@media (max-width:850px){
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 50px;
+        background-color: black;
+        z-index: 1;
+    }
+    .logo{
+      font-size: 12px;   
+    }
+    .nav-title{
+        display: none;
+    }      
+
+    .banner{
+        position: relative;
+        text-align: center;
+    }
+    .banner-img{
+        background-image: url('images/bg1.jpg');
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+    }
+    .content{
+        position: absolute;
+        top: 100px;
+        color:lightgrey;  
+        width: auto;  
+        text-align: center;
+    }
+    .address p{
+        display: none;
+    }     
+    
+}
+
+
+@media (max-width:500px) {
+    .content p{
+        margin-top: 5px;
+        line-height: .5;
+        line-break: auto;
+    }
+    .footer ul{
+        display: none;
+    }    
+    .address p{
+        display: none;
+    }     
+    .footer{
+        text-align: center;
+    } 
+    
+}
